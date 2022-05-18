@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(145, 204, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  min-height: 380px;
+  height: auto;
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  border: 1px solid;
+  border-color: rgb(223, 219, 219);
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 160px;
+}
+
+.input:focus {
+  border-color: rgb(145, 204, 184);
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  border: 1px solid;
+  border-color: rgb(145, 204, 184);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: rgb(145, 204, 184);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(145, 204, 184);
+  color: whitesmoke;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(72, 142, 119);
+  margin-bottom: 18px;
+}
+
+.icons {
+  display: flex;
+  font-size: 15px;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  border: 1px solid rgb(72, 142, 119);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: whitesmoke;
+  background-color: rgb(72, 142, 119);
+}
